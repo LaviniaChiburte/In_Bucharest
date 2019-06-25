@@ -1,17 +1,17 @@
 h2{
     font-size: 20px;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
 }
 p{
-    margin-block-start: 0%;
+    margin-block-start: 0px;
     font-size: 15px;
 }
-article{
+.imageDescription{
     margin: 20px;
 }
 /* smartphone */
 @media screen and (min-width: 300px) and (max-width: 768px) {
-    article{
+    .imageDescription{
         margin: 8px;
     }
     p{
@@ -20,7 +20,7 @@ article{
 }
 /* smartphone landscape */
 @media screen and (max-width: 769px) {
-    article{
+    .imageDescription{
         margin: 12px;
     }
     p{
@@ -30,7 +30,7 @@ article{
 
 /* portrait tablet */
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    article{
+    .imageDescription{
         margin: 18px;
     }
     p{
@@ -40,7 +40,7 @@ article{
 
 /* landscape tablet display */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-    article{
+    .imageDescription{
         margin: 20px;
     }
     p{
@@ -50,7 +50,7 @@ article{
 
 /* Desktop screen display */
 @media screen and (min-width: 1200px) {
-    article{
+    .imageDescription{
         margin: 20px;
     }
     p{
