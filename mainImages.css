@@ -1,0 +1,45 @@
+.inOutContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+	justify-content: space-around;
+}
+
+.mainImage {
+	margin: auto;
+	padding: 0;
+	max-width: 50vw;
+	max-height: 50vh;
+}
+
+/* smartphone */
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+	.inOutContainer {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin: 0;
+		justify-content: center;
+	}
+
+	.mainImage {
+		margin: 0;
+		padding: 0;
+		min-width: 49vw;
+		min-height: 50vh;
+	}
+}
+
+/* portrait tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+/* landscape tablet display */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+
+/* Desktop screen display */
+@media screen and (min-width: 1201px) {
+}
