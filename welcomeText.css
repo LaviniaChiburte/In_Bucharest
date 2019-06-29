@@ -1,50 +1,39 @@
-h2 {
+.welcomeContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.welcomeText {
+	margin: 10px;
+	padding: 5px;
 	font-size: 20px;
-	margin-bottom: 0px;
 }
-p {
-	margin-block-start: 0px;
-	font-size: 15px;
-}
-.imageDescription {
-	margin: 20px;
-}
+
 /* smartphone */
+
 @media screen and (min-width: 300px) and (max-width: 767px) {
-	.imageDescription {
-		margin: 8px;
-	}
-	p {
+	.welcomeText {
 		font-size: 12px;
 	}
 }
 
 /* portrait tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-	.imageDescription {
-		margin: 18px;
-	}
-	p {
-		font-size: 15px;
+	.welcomeText {
+		font-size: 18px;
 	}
 }
 
 /* landscape tablet display */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-	.imageDescription {
-		margin: 20px;
-	}
-	p {
-		font-size: 18px;
+	.welcomeText {
+		font-size: 20px;
 	}
 }
 
 /* Desktop screen display */
 @media screen and (min-width: 1201px) {
-	.imageDescription {
-		margin: 20px;
-	}
-	p {
-		font-size: 18px;
+	.welcomeText {
+		font-size: 20px;
 	}
 }
