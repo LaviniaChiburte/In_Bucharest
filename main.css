@@ -42,14 +42,11 @@ a:hover {
 /* smartphone */
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
-	header {
-		display: flex;
-	}
-
 	.headerText {
 		font-size: 20px;
 		flex-wrap: wrap;
-		text-align: center;
+		justify-content: center;
+		align-content: center;
 	}
 
 	.license {
