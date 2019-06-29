@@ -10,6 +10,8 @@
 	width: 100vw;
 	height: 70vh;
 	object-fit: cover;
+	filter: saturate(2);
+	-webkit-filter: saturate(2);
 }
 
 /* smartphone */
@@ -20,6 +22,8 @@
 		width: 100vw;
 		height: 50vh;
 		object-fit: cover;
+		filter: saturate(2);
+		-webkit-filter: saturate(2);
 	}
 }
 

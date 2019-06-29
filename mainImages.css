@@ -13,7 +13,9 @@
 	margin: 0;
 	padding: 0;
 	width: 50vw;
-	height: 50vh;
+	height: 80vh;
+	filter: saturate(2);
+	-webkit-filter: saturate(2);
 }
 
 .mainImage:hover {
@@ -37,8 +39,10 @@
 	.mainImage {
 		margin: 0;
 		padding: 2px;
-		width: 50vw;
+		width: 90vw;
 		height: 50vh;
+		filter: saturate(2);
+		-webkit-filter: saturate(2);
 	}
 }
 
