@@ -1,0 +1,71 @@
+.cardsSection{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+   
+   .cardsSection > div > img {
+    border-radius: 5%;
+    width: 20vw;
+    height:20vw ;
+}
+.cardsSection > div{
+    width: 20vw;
+    height: 30vw;
+    display:flex;
+    flex-direction: column;   
+    padding-left: 10px;
+    /* margin: 10px; */
+}
+
+.cardsSection > div > p{
+    text-align: center;
+    font-size:15px;
+    padding-top: 10px;
+    color: salmon;
+}
+
+/* smartphone */
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .cardsSection{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .cardsSection > div > p{
+        text-align: center;
+        font-size:12px;
+        padding-top: 5px;
+        color: salmon;
+    }
+    .cardsSection > div > img {
+        border-radius: 5%;
+        width: 70vw;
+        height:70vw ;
+    }
+    .cardsSection > div{
+        width: 70vw;
+        height: 80vw;
+        display:flex;
+        flex-direction: column;   
+        padding-left: 0px;
+    }
+}
+
+/* portrait tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+/* landscape tablet display */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+/* Desktop screen display */
+@media screen and (min-width: 1201px) {
+}
