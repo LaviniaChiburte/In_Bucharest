@@ -1,5 +1,6 @@
 :root {
-	--
+    --overlay-color: rgba(136, 131, 130, 0.85);
+	--menu-speed: 0.75s;
 }
 
 body {
@@ -21,7 +22,7 @@ a {
 }
 
 a:hover {
-	color: salmon;
+	color: rgb(250, 128, 114);
 }
 .mainContent {
 	flex-grow: 1;
