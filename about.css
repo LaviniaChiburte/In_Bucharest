@@ -1,0 +1,47 @@
+.wrapSections {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+h4 {
+	height: 20vh;
+	text-align: center;
+}
+.wrapOne {
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapTwo {
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+.textAboutOne {
+	width: 40vw;
+	height: 20vh;
+}
+
+.textAboutTwo {
+	width: 70vw;
+	height: 20vh;
+}
+.WildCircle {
+	width: 20vw;
+	height: 20vw;
+	border-radius: 100%;
+}
