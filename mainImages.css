@@ -21,7 +21,7 @@
 .mainImage:hover {
 	opacity: 0.5;
 	transition: 1s;
-	transform: translateY(-4px);
+	transform: translateY(-4px);	
 }
 
 /* smartphone */
