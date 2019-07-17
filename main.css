@@ -36,7 +36,6 @@ a:hover {
 .license {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	padding: 5px;
 	margin-bottom: 0px;
 	color: #696969;
