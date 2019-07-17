@@ -1,11 +1,9 @@
-body {
+main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.headerText {
-	margin-bottom: 60%;
+	margin-top: 25%;
+	margin-bottom: 25%;
 }
 
 .contactTitle {
@@ -19,7 +17,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center space-around;
+	justify-content: center space-evenly;
 	border-radius: 50%;
 	width: 40vw;
 	height: 40vw;
@@ -35,14 +33,14 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center space-around;
+	justify-content: center;
 }
 
 .textContact {
 	margin: 1vw;
 	padding: 1vw;
 	font: italic;
-	width: 10vw;
+	width: 20vw;
 	height: 1vw;
 	border-radius: 5px;
 	border: none;
@@ -52,7 +50,7 @@ form {
 	margin: 1vw;
 	padding: 1vw;
 	font: italic;
-	width: 10vw;
+	width: 20vw;
 	height: 5vw;
 	border-radius: 5px;
 	border: none;
@@ -64,9 +62,9 @@ form {
 	color: white;
 	font-style: bold;
 	border-radius: 5px;
-	width: 5vw;
-	height: 2vw;
-	margin: 0.5vw;
+	width: 10vw;
+	height: 3vw;
+	margin: 1vw;
 	border: none;
 }
 
@@ -94,4 +92,42 @@ select:focus,
 textarea:focus,
 button:focus {
 	outline: none;
+}
+
+/* smartphone */
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+	.headerText {
+	}
+
+	.contactTitle {
+		font-size: 3vh;
+	}
+
+	.textContact {
+		font-size: 1vh;
+		width: 40vw;
+		height: 5vw;
+	}
+	.messageContact {
+		font-size: 1vh;
+		width: 40vw;
+		height: 15vw;
+	}
+	.submitContact {
+		font-size: 1vh;
+		width: 15vw;
+		height: 5vw;
+	}
+
+	.circleContact {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center space-around;
+		border-radius: 50%;
+		width: 90vw;
+		height: 90vw;
+		background-color: rgba(136, 131, 130, 0.85);
+	}
 }
