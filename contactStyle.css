@@ -1,0 +1,97 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerText {
+	margin-bottom: 60%;
+}
+
+.contactTitle {
+	color: white;
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+.circleContact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center space-around;
+	border-radius: 50%;
+	width: 40vw;
+	height: 40vw;
+	background-color: rgba(136, 131, 130, 0.85);
+}
+
+::-webkit-input-placeholder {
+	color: #696969;
+	font-style: italic;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center space-around;
+}
+
+.textContact {
+	margin: 1vw;
+	padding: 1vw;
+	font: italic;
+	width: 10vw;
+	height: 1vw;
+	border-radius: 5px;
+	border: none;
+}
+
+.messageContact {
+	margin: 1vw;
+	padding: 1vw;
+	font: italic;
+	width: 10vw;
+	height: 5vw;
+	border-radius: 5px;
+	border: none;
+	resize: none;
+}
+
+.submitContact {
+	background-color: #696969;
+	color: white;
+	font-style: bold;
+	border-radius: 5px;
+	width: 5vw;
+	height: 2vw;
+	margin: 0.5vw;
+	border: none;
+}
+
+.submitContact:hover {
+	color: salmon;
+}
+
+input[type='text']:focus {
+	background-color: salmon;
+	box-shadow: none;
+}
+input[type='email']:focus {
+	background-color: salmon;
+}
+input[type='name']:focus {
+	background-color: salmon;
+}
+
+textarea[type='text']:focus {
+	background-color: salmon;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
