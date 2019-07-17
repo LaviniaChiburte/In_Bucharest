@@ -10,16 +10,17 @@
 			rel="stylesheet"
 		/>
 		<link href="main.css" rel="stylesheet" />
-
 		<link href="menuStyle.css" rel="stylesheet" />
+		<link href="contactStyle.css" rel="stylesheet" />
 
 		<title>Contact</title>
 	</head>
 	<body>
-		<header>
-			<h1 class="headerText">Contact</h1>
-		</header>
-
+			<header>
+					<h1 class="headerText" onclick="window.location.href = 'index.html'">
+						Contact
+					</h1>
+				</header>
 		<nav class="menu-wrap">
 			<input type="checkbox" class="toggler" />
 			<div class="hamburger"><div></div></div>
@@ -37,23 +38,49 @@
 				</div>
 			</div>
 		</nav>
-		<form>
-			<div>
-				<label for="email">Email:</label>
-				<input type="email" name="email" placeholder="@" />
-			</div>
-			<div>
-				<label for="text">Subject:</label>
-				<input type="text" name="text" placeholder="subject" />
-			</div>
-			<div>
-				<label for="text">Message:</label>
-				<textarea placeholder="Write your message" value=""></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Send" />
-			</div>
-		</form>
+		<section class="circleContact">
+			<h2 class="contactTitle">Message Us</h2>
+
+			<form>
+				<div class="formInput">
+					<input
+						class="textContact"
+						type="name"
+						name="email"
+						placeholder="Name"
+					/>
+				</div>
+				<div>
+					<input
+						class="textContact"
+						type="email"
+						name="email"
+						placeholder="Email"
+					/>
+				</div class="formInput">
+				<div class="formInput">
+					<input
+						class="textContact"
+						type="text"
+						name="text"
+						placeholder="Subject"
+					/>
+				</div>
+
+				<div class="formInput">
+					<textarea
+						type="text"
+						class="messageContact"
+						placeholder="Message"
+						value=""
+					></textarea>
+				</div>
+
+				<div class="formInput">
+					<input class="submitContact" type="submit" value="Send" />
+				</div>
+			</form>
+		</section>
 
 		<footer>
 			<ul class="license">
