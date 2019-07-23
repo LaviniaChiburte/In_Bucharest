@@ -15,6 +15,12 @@ main {
 }
 .contactTitle {
 	text-align: center;
+	font-size: 3vw;
+}
+
+.followTitle {
+	text-align: center;
+	font-size: 3vw;
 }
 
 .circleContact {
@@ -111,8 +117,9 @@ button:focus {
 }
 .social-icons > li {
 	list-style-type: none;
-	padding: 2px;
 	font-size: 3vw;
+	margin: 0.5vw;
+	padding: 0.4vh;
 }
 
 a {
@@ -134,7 +141,11 @@ a:hover {
 		margin-top: 0;
 	}
 
-	.contactTitle .followTitle {
+	.contactTitle {
+		font-size: 3vh;
+	}
+
+	.followTitle {
 		font-size: 3vh;
 	}
 
@@ -171,12 +182,16 @@ a:hover {
 		width: 50vw;
 		height: 40vh;
 		margin: 0;
-		padding-top: 3vh;
+	}
+	.social-icons {
+		display: flex;
+		list-style-type: none;
+		padding: 0;
 	}
 
 	.social-icons > li {
 		list-style-type: none;
-		padding: 3px;
+		padding: 2vw;
 		font-size: 3vh;
 	}
 }
