@@ -9,13 +9,14 @@
 h4 {
 	height: 20vh;
 	text-align: center;
+	margin-inline-end: 0px;
 }
 .wrapOne {
 	width: 100vw;
 	height: 40vh;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -26,7 +27,7 @@ h4 {
 	height: 40vh;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
