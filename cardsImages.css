@@ -44,7 +44,7 @@ img:hover{
     .cardsSection > div > p{
         text-align: center;
         font-size:12px;
-        padding-top: 5px;
+        padding-top: 20px;
         color: salmon;
     }
     .cardsSection > div > img {
@@ -58,6 +58,7 @@ img:hover{
         display:flex;
         flex-direction: column;   
         padding-left: 0px;
+        padding-top: 20px;
     }
 }
 
