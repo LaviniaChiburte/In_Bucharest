@@ -21,6 +21,7 @@ main {
 .followTitle {
 	text-align: center;
 	font-size: 3vw;
+	margin: 0;
 }
 
 .circleContact {
@@ -28,8 +29,8 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 50vw;
-	height: 50vw;
+	width: 40vw;
+	height: 60vw;
 }
 
 ::-webkit-input-placeholder {
@@ -42,6 +43,8 @@ form {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	width: 50vw;
+	height: 40vw;
 }
 
 .textContact {
@@ -107,8 +110,18 @@ button:focus {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 50vw;
-	height: 50vw;
+	width: 40vw;
+	height: 60vw;
+}
+
+.socialMedia > ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40vw;
+	height: 40vw;
+	margin: 0;
 }
 
 .social-icons {
@@ -118,7 +131,7 @@ button:focus {
 .social-icons > li {
 	list-style-type: none;
 	font-size: 3vw;
-	margin: 0.5vw;
+	margin: 0.4vw;
 	padding: 0.4vh;
 }
 
@@ -127,8 +140,7 @@ a {
 	color: rgba(136, 131, 130, 0.85);
 }
 a:hover {
-	color: #d9d9d9;
-	text-decoration: underline;
+	color: salmon;
 }
 /* smartphone */
 
@@ -170,8 +182,16 @@ a:hover {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 50vw;
+		width: 60vw;
 		height: 50vh;
+	}
+
+	form {
+		align-items: center;
+		justify-content: center;
+		width: 60vw;
+		height: 35vh;
+		margin: 0;
 	}
 
 	.socialMedia {
@@ -180,7 +200,17 @@ a:hover {
 		align-items: center;
 		justify-content: center;
 		width: 50vw;
-		height: 40vh;
+		height: 30vh;
+		margin-top: 5px;
+	}
+
+	.socialMedia > ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 60vw;
+		height: 20vh;
 		margin: 0;
 	}
 	.social-icons {
