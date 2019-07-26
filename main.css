@@ -17,33 +17,8 @@ body {
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	color: #696969;
-}
-
-a:hover {
-	color: rgb(250, 128, 114);
-}
 .mainContent {
 	flex-grow: 1;
-}
-
-/* footer {
-	flex-shrink: 0;
-} */
-
-.license {
-	display: flex;
-	flex-direction: row;
-	padding: 5px;
-	margin-bottom: 0px;
-	color: #696969;
-}
-
-.license li {
-	list-style-type: none;
-	padding: 5px;
 }
 
 /* smartphone */
@@ -54,10 +29,6 @@ a:hover {
 		flex-wrap: wrap;
 		justify-content: center;
 		align-content: center;
-	}
-
-	.license {
-		font-size: 12px;
 	}
 }
 
